@@ -1,0 +1,99 @@
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+    margin: 75px;
+    background-image: url(images/imgbg4.png); 
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover;
+    color: rgb(71, 66, 70);
+    font-family: 'VT323', monospace;
+    font-size: 25px;
+}
+
+
+
+#mii {
+    width:300px;
+    height:auto;
+    float: right;
+}
+
+h1 {
+    color: #c734c7;
+    font-family: 'DotGothic16', sans-serif;
+    font-weight: bold;
+    letter-spacing: 10px;
+    font-size: 40px;
+}
+
+h2 {
+    color: #faedff;
+    font-family: inherit; 
+    font-weight: bolder;
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+
+
+#bloc {
+    background: rgba(242, 141, 237, .6);                                                  
+    box-shadow: 0 10px 30px rgba(0,0,0,.2); 
+}
+
+
+
+#titre {
+    text-align: center;
+    display: block;
+}
+
+
+.ct1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+.img-aesth
+{
+width:175px;
+height:auto;
+}
+
+#jfgif
+{
+    width:175px;
+    height:auto;
+    margin: auto;
+    display: block;
+}
+
+#spinkeur
+{
+    width:75px;
+    height:auto;
+    position: absolute;
+    
+}
+
+a:hover {
+    color:#f06ce9;
+}
+
+
